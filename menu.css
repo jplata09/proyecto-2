@@ -1,0 +1,92 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    margin: 0;     
+    font-family: Arial, Helvetica;   
+    background-image: url(../imagenes/fondo\ de\ pagina.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.header{
+width: 100%;
+
+
+}
+
+
+nav{
+	
+	margin: auto;
+	background-color: #333;
+	font-size: 20px;	
+    margin: right 0;
+}
+.menu-horizontal{
+	list-style: none;
+	display: flex;
+	justify-content: left;
+}
+.menu-horizontal > li > a{
+	display: block;
+	padding: 15px 20px;
+	color: white;
+	text-decoration: none;
+}
+.menu-horizontal > li:hover{
+	background-color: rgb(26, 25, 25);
+}
+.menu-vertical{
+	position: absolute;
+	display: none;
+	list-style: none;
+	width: 200px;
+	background-color: rgba(0, 0, 0, .5);
+}
+.menu-horizontal li:hover .menu-vertical{
+	display: block;
+}
+.menu-vertical li:hover{
+	background-color: black;
+}
+
+.menu-vertical li a{
+	display: block;
+	color: white;
+	text-decoration: none;
+	padding: 15px 15px 15px 20px;
+}
+
+
+.zapatoimagen{
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    margin-top: 60px;
+    margin-left: 1500px;
+}
+
+.airforceone{
+    display: flex;
+    flex-direction: column;   
+    margin-left: 20px;
+    margin-top: -300px;
+}
+
+.airforceone h1{
+    font-size: 50px;
+}
+
+.airforceone p{
+    font-size: 30px;
+}
+
+.airforceone span{
+    color: darkorange
+}
